@@ -7,7 +7,7 @@ This repository contains a refactored Python script for generating a square patt
 The original code utilized procedural programming with explicit loop control and lacked abstraction. It consisted of a single script with hardcoded logic to generate the square pattern.
 
 
-### Introduction of Higher-Order Function
+### 1. Introduction of Higher-Order Function
 In the original code, the square pattern generation logic was tightly coupled with the main script. In the refactored version, we introduced a higher-order function `generate_pattern` that takes another function `square_printer` as an argument.
 
 ### 2. Improved Readability
